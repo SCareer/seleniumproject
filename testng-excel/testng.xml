@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Suite">
+    <test name = "Test 1">
+        <classes>
+            <class name = "TestCases.DataProviderTest"> </class>
+            <class name = "TestCases.DataProviderWithExcelTest"> </class>
+        </classes>
+    </test>
+    <test name = "Test 2">
+        <classes>
+            <class name = "TestCases.DataProviderTest"> </class>
+        </classes>
+    </test>
+    <test name = "Test 3">
+        <classes>
+            <class name = "TestCases.DataProviderWithExcelTest"> </class>
+        </classes>
+    </test>
+</suite>
