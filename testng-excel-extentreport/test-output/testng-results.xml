@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="40" passed="40">
+  <reporter-output>
+    <line>
+      <![CDATA[now printing username & password ]]>
+    </line>
+    <line>
+      <![CDATA[now printing username & password ]]>
+    </line>
+    <line>
+      <![CDATA[now printing username & password ]]>
+    </line>
+    <line>
+      <![CDATA[now printing username & password ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12593" started-at="2019-05-23T22:49:34Z" finished-at="2019-05-23T22:49:46Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="DataProviderWithExcelTest.Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test1" class="TestCases.DataProviderWithExcelTest"/>
+        <method signature="DataProviderWithExcelTest.Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test1" class="TestCases.DataProviderWithExcelTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="E2E">
+        <method signature="DataProviderTest.test(java.lang.String, java.lang.String)[pri:0, instance:TestCases.DataProviderTest@6b09bb57]" name="test" class="TestCases.DataProviderTest"/>
+        <method signature="DataProviderTest.test(java.lang.String, java.lang.String)[pri:0, instance:TestCases.DataProviderTest@23e028a9]" name="test" class="TestCases.DataProviderTest"/>
+      </group> <!-- E2E -->
+      <group name="SIT">
+        <method signature="DataProviderWithExcelTest.Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test2" class="TestCases.DataProviderWithExcelTest"/>
+        <method signature="DataProviderWithExcelTest.Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test2" class="TestCases.DataProviderWithExcelTest"/>
+      </group> <!-- SIT -->
+    </groups>
+    <test name="Test 1" duration-ms="7609" started-at="2019-05-23T22:49:34Z" finished-at="2019-05-23T22:49:41Z">
+      <class name="TestCases.DataProviderWithExcelTest">
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test1" duration-ms="15" started-at="2019-05-23T22:49:41Z" data-provider="testdata1" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@125]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[three]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test1" duration-ms="0" started-at="2019-05-23T22:49:41Z" data-provider="testdata1" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@124]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test1" duration-ms="0" started-at="2019-05-23T22:49:41Z" data-provider="testdata1" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[one]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test1" duration-ms="0" started-at="2019-05-23T22:49:41Z" data-provider="testdata1" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@127]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[five]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test1" duration-ms="0" started-at="2019-05-23T22:49:41Z" data-provider="testdata1" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@126]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[four]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test1" duration-ms="0" started-at="2019-05-23T22:49:41Z" data-provider="testdata1" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@129]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test1" duration-ms="16" started-at="2019-05-23T22:49:41Z" data-provider="testdata1" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@130]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[six]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test1" duration-ms="0" started-at="2019-05-23T22:49:41Z" data-provider="testdata1" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@128]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[six]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test1" duration-ms="0" started-at="2019-05-23T22:49:41Z" data-provider="testdata1" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@131]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ten]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:41Z" data-provider="testdata2" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@126]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[four]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:41Z" data-provider="testdata2" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[one]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:41Z" data-provider="testdata2" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@127]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[five]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:41Z" data-provider="testdata2" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@124]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:41Z" data-provider="testdata2" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@125]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[three]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:41Z" data-provider="testdata2" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@130]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[six]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:41Z" data-provider="testdata2" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@129]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EndTest()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="EndTest" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:41Z" data-provider="testdata2" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@128]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[six]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:41Z" data-provider="testdata2" finished-at="2019-05-23T22:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@131]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ten]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@6536e911]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCases.DataProviderWithExcelTest -->
+      <class name="TestCases.DataProviderTest">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:TestCases.DataProviderTest@6b09bb57]" name="test" duration-ms="4297" started-at="2019-05-23T22:49:34Z" data-provider="Authentication" finished-at="2019-05-23T22:49:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[now printing username & password ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:TestCases.DataProviderTest@6b09bb57]" name="test" duration-ms="2265" started-at="2019-05-23T22:49:38Z" data-provider="Authentication" finished-at="2019-05-23T22:49:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[now printing username & password ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- TestCases.DataProviderTest -->
+    </test> <!-- Test 1 -->
+    <test name="Test 2" duration-ms="4781" started-at="2019-05-23T22:49:41Z" finished-at="2019-05-23T22:49:46Z">
+      <class name="TestCases.DataProviderTest">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:TestCases.DataProviderTest@23e028a9]" name="test" duration-ms="2266" started-at="2019-05-23T22:49:41Z" data-provider="Authentication" finished-at="2019-05-23T22:49:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[now printing username & password ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:TestCases.DataProviderTest@23e028a9]" name="test" duration-ms="2499" started-at="2019-05-23T22:49:44Z" data-provider="Authentication" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[now printing username & password ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- TestCases.DataProviderTest -->
+    </test> <!-- Test 2 -->
+    <test name="Test 3" duration-ms="156" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+      <class name="TestCases.DataProviderWithExcelTest">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="15" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test1" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata1" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@124]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test1" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata1" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[one]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test1" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata1" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@126]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[four]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="16" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test1" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata1" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@130]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[six]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test1" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata1" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@127]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[five]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test1" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata1" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@125]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[three]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test1" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata1" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@131]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ten]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test1" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata1" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@129]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test1" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata1" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@128]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[six]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata2" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[one]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata2" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@124]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata2" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@129]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata2" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@126]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[four]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="15" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata2" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@125]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[three]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata2" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@127]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[five]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata2" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@128]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[six]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata2" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@131]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ten]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EndTest()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="EndTest" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTest -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="Test2" duration-ms="0" started-at="2019-05-23T22:49:46Z" data-provider="testdata2" finished-at="2019-05-23T22:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser_8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@130]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[six]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestCases.DataProviderWithExcelTest@3701eaf6]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-23T22:49:46Z" finished-at="2019-05-23T22:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCases.DataProviderWithExcelTest -->
+    </test> <!-- Test 3 -->
+  </suite> <!-- Suite -->
+</testng-results>
