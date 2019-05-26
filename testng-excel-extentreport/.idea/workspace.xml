@@ -67,70 +67,6 @@
       <change afterPath="$PROJECT_DIR$/../dlg-selenium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_14_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dlg-selenium/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_14_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../dlg-selenium/src/test/java/com/dlg/steps/junitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/TestData2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/DataProviderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/DataProviderWithExcelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/ExpediaDataProviderWithExcelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/ExtentReportTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utility/ExcelUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dataprovider/TestDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ExpediaTestData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/TestCases/DataProviderTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/TestCases/DataProviderWithExcelTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/TestCases/ExtentReportTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Utility/ExcelUtility.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/dataprovider/TestDataProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/testng-excel-extentreport-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite/Test 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite/Test 1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite/Test 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite/Test 2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite/Test 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite/Test 3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCases.DataProviderTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCases.DataProviderWithExcelTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/myReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite/Test 1.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite/Test 2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite/Test 3.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng-excel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dlg-selenium/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dlg-selenium/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dlg-selenium/.idea/libraries/Maven__cglib_cglib_nodep_3_2_4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dlg-selenium/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_4_0.xml" beforeDir="false" />
@@ -218,8 +154,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="136">
+              <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -292,6 +228,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -341,6 +282,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -352,34 +295,6 @@
               <item name="testng-excel-extentreport" type="b2602c69:ProjectViewProjectNode" />
               <item name="testng-excel-extentreport" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testng-excel-extentreport" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testng-excel-extentreport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testng-excel-extentreport" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testng-excel-extentreport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testng-excel-extentreport" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testng-excel-extentreport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testng-excel-extentreport" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testng-excel-extentreport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testng-excel-extentreport" type="b2602c69:ProjectViewProjectNode" />
@@ -400,8 +315,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -547,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558653014132</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added TestNG suite .xml used in different ways i.e. groups , multiple suits &amp; packages">
+      <created>1558866137574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558866137574</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -585,7 +505,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19894099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -600,7 +520,7 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.18367347" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18367347" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -849,8 +769,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="136">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
         </state>
       </provider>
     </entry>
