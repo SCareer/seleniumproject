@@ -13,7 +13,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <!-- test bang file testng.xml -->
 <!--        <suiteXmlFile>${basedir}/testng.xml</suiteXmlFile>-->
-<!--        <suiteXmlFile>testng.xml</suiteXmlFile>-->
+        <suiteXmlFile>testng.xml</suiteXmlFile>
         <maven.test.skip>false</maven.test.skip>
         <java.home.prop>${env.JAVA_HOME}</java.home.prop>
         <!--     <skipTests>true</skipTests>
