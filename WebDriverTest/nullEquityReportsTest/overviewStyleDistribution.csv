@@ -1,0 +1,233 @@
+{
+"graphset":[
+    {
+        "chartdescription":"Style Distribution-48-319",
+        "title":{
+            
+        },
+        "legend":{
+            "visible":true,
+            "layout":"x5",
+            "item":{
+                
+            }
+        },
+        "scale-x":{
+            "labels":[],
+            "max-labels":50,
+            "markers":[],
+            "exact":true,
+            "label":{
+                
+            },
+            "item":{
+                "font-angle":340,
+                "offset-x":15,
+                "offset-y":-8,
+                "auto-align":true,
+                "rules":[]
+            },
+            "items-overlap":true,
+            "max-items":200,
+            "values":["Large Value","Large Growth","Mid Value","Mid Growth","Small Value","Small Growth","Cash","Missing Style"]
+        },
+        "scale-y":{
+            "label":{
+                "text":"%",
+                "font-angle":0
+            },
+            "item":{
+                "rules":[]
+            },
+            "items-overlap":true,
+            "max-items":200,
+            "values":"0:50:10"
+        },
+        "plot":{
+            "tooltip-text":"%data-tooltips-1",
+            "rules":[],
+            "data-id":[],
+            "data-tooltips-1":["%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %","%k %t<br/>Value: %v %"],
+            "data-tooltips-2":["0","1","2","3","4","5","-1","-2"],
+            "value-box":{
+                "visible":false
+            },
+            "hover-state":{
+                "shadow":true,
+                "shadow-distance":"3px"
+            },
+            "bars-overlap":"-0.0001%",
+            "exact":1,
+            "max-trackers":999,
+            "offset-values":[],
+            "tooltip":{
+                "visible":true
+            }
+        },
+        "plotarea":{
+            "margin-top":40,
+            "margin-bottom":45,
+            "height":"100%"
+        },
+        "layout":{
+            "layout":"1x2"
+        },
+        "series":[
+            {
+                "values":[41.23139572143555,15.34158706665039,18.28130340576172,6.308541297912598,11.875948905944824,3.7153546810150146,3.245865821838379,0],
+                "text":"Portfolio",
+                "effect":2,
+                "target":"_self",
+                "url":"javascript:displayDistributionSecurities('Widgets.WebWidgets.WebChartSizeStyleDistribution','f70aa41c-6f35-43a1-9faa-1f4f2a1ad41b','%k','%data-tooltips-2','Total','Style','%v');",
+                "stacked":false,
+                "decimals":2,
+                "data-tooltips-3":[],
+                "data-tooltips-4":[],
+                "type":"bar",
+                "marker":{
+                    "visible":false,
+                    "type":"square"
+                },
+                "legend-marker":{
+                    
+                },
+                "legend-item":{
+                    
+                },
+                "background-color":"#34209D"
+            },
+            {
+                "values":[48.717018127441406,37.33891677856445,7.249668121337891,6.488001346588135,0.10908494144678116,0.059281300753355026,0,0.03802912309765816],
+                "text":"Benchmark",
+                "effect":2,
+                "target":"_self",
+                "url":"javascript:displayDistributionSecurities('Widgets.WebWidgets.WebChartSizeStyleDistribution','f70aa41c-6f35-43a1-9faa-1f4f2a1ad41b','%k','%data-tooltips-2','Total','Style','%v');",
+                "stacked":false,
+                "decimals":2,
+                "data-tooltips-3":[],
+                "data-tooltips-4":[],
+                "type":"bar",
+                "marker":{
+                    "visible":false,
+                    "type":"square"
+                },
+                "legend-marker":{
+                    
+                },
+                "legend-item":{
+                    
+                },
+                "background-color":"#98935B"
+            },
+            {
+                "values":[0.31463488936424255,0,0,0,0,0,0,0],
+                "text":"Coverage",
+                "effect":2,
+                "target":"_self",
+                "url":"javascript:displayDistributionSecurities('Widgets.WebWidgets.WebChartSizeStyleDistribution','f70aa41c-6f35-43a1-9faa-1f4f2a1ad41b','%k','%data-tooltips-2','Total','Style','%v');",
+                "stacked":false,
+                "decimals":2,
+                "data-tooltips-3":[],
+                "data-tooltips-4":[],
+                "type":"bar",
+                "marker":{
+                    "visible":false,
+                    "type":"square"
+                },
+                "legend-marker":{
+                    
+                },
+                "legend-item":{
+                    
+                },
+                "background-color":"#035BB4"
+            },
+            {
+                "values":[34.79713821411133,34.79713821411133,9.942039489746094,9.942039489746094,4.971019744873047,4.971019744873047,0,0.5796058177947998],
+                "text":"Market",
+                "effect":2,
+                "target":"_self",
+                "url":"javascript:displayDistributionSecurities('Widgets.WebWidgets.WebChartSizeStyleDistribution','f70aa41c-6f35-43a1-9faa-1f4f2a1ad41b','%k','%data-tooltips-2','Total','Style','%v');",
+                "stacked":false,
+                "decimals":2,
+                "data-tooltips-3":[],
+                "data-tooltips-4":[],
+                "type":"bar",
+                "marker":{
+                    "visible":false,
+                    "type":"square"
+                },
+                "legend-marker":{
+                    
+                },
+                "legend-item":{
+                    
+                },
+                "background-color":"#2A2A2A"
+            }
+        ],
+        "labels":[],
+        "options":{
+            "tooltip-box":{
+                "text-align":""
+            }
+        },
+        "type":"mixed"
+    }
+],
+"gui":{
+    "behaviors":[
+        {
+            "id":"Reload",
+            "enabled":"none"
+        },
+        {
+            "id":"BuyLicense",
+            "enabled":"none"
+        },
+        {
+            "id":"BugReport",
+            "enabled":"none"
+        },
+        {
+            "id":"Print",
+            "enabled":"none"
+        },
+        {
+            "id":"SwitchTo3D",
+            "enabled":"none"
+        },
+        {
+            "id":"SaveAsImage",
+            "enabled":"none"
+        },
+        {
+            "id":"DownloadPDF",
+            "enabled":"none"
+        },
+        {
+            "id":"DownloadPDF",
+            "enabled":"none"
+        },
+        {
+            "id":"LogScale",
+            "enabled":"none"
+        },
+        {
+            "id":"LinearScale",
+            "enabled":"none"
+        },
+        {
+            "id":"DownloadSVG",
+            "enabled":"none"
+        },
+        {
+            "id":"FullScreen",
+            "enabled":"all"
+        }
+    ]
+},
+"globals":{
+    "fontFamily":"'Lucida Sans Unicode', 'Lucida Grande', Verdana, Arial, sans-serif"
+}
+}

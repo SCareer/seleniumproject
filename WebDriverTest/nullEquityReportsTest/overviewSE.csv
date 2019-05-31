@@ -1,0 +1,492 @@
+{
+"graphset":[
+    {
+        "title":{
+            
+        },
+        "legend":{
+            "item":{
+                
+            }
+        },
+        "scale-x":{
+            "labels":[],
+            "max-labels":50,
+            "markers":[],
+            "exact":true,
+            "visible":false,
+            "label":{
+                
+            },
+            "item":{
+                "rules":[]
+            },
+            "items-overlap":true,
+            "max-items":200
+        },
+        "scale-y":{
+            "visible":false,
+            "label":{
+                
+            },
+            "item":{
+                "rules":[]
+            },
+            "items-overlap":true,
+            "max-items":200,
+            "values":"0:23:1"
+        },
+        "plot":{
+            "tooltip-text":"",
+            "rules":[
+                {
+                    "rule":"%p >= 0",
+                    "background-color":"#ffffff"
+                }
+            ],
+            "data-id":[],
+            "data-tooltips-1":[],
+            "data-tooltips-2":[],
+            "value-box":{
+                "font-family":"Gothic",
+                "placement":"middle",
+                "text":"%plot-text",
+                "rules":[
+                    {
+                        "rule":"%p == 0",
+                        "font-color":"#0193CF"
+                    },
+                    {
+                        "rule":"%p == 1",
+                        "font-color":"#34209D"
+                    },
+                    {
+                        "rule":"%p == 2",
+                        "font-color":"#3B9067"
+                    },
+                    {
+                        "rule":"%p == 3",
+                        "font-color":"#8624AF"
+                    },
+                    {
+                        "rule":"%p == 4",
+                        "font-color":"#FFA500"
+                    },
+                    {
+                        "rule":"%p == 5",
+                        "font-color":"#AB4030"
+                    },
+                    {
+                        "rule":"%p == 6",
+                        "font-color":"#2A2A2A"
+                    }
+                ]
+            },
+            "hover-state":{
+                
+            },
+            "exact":1,
+            "max-trackers":999,
+            "stacked":1,
+            "offset-values":[],
+            "tooltip":{
+                "visible":true
+            }
+        },
+        "plotarea":{
+            "margin-top":0,
+            "margin-bottom":-1,
+            "margin-left":51,
+            "height":"100%"
+        },
+        "layout":{
+            "layout":"1x2"
+        },
+        "series":[
+            {
+                "values":[5],
+                "text":"Value",
+                "effect":2,
+                "target":"_self",
+                "tooltip-text":"Value",
+                "stacked":true,
+                "decimals":2,
+                "stack":1,
+                "data-tooltips-3":[],
+                "data-tooltips-4":[],
+                "type":"hbar",
+                "marker":{
+                    "visible":false
+                },
+                "legend-marker":{
+                    
+                },
+                "legend-item":{
+                    
+                }
+            },
+            {
+                "values":[2],
+                "text":"Yield",
+                "effect":2,
+                "target":"_self",
+                "tooltip-text":"Yield",
+                "stacked":true,
+                "decimals":2,
+                "stack":1,
+                "data-tooltips-3":[],
+                "data-tooltips-4":[],
+                "type":"hbar",
+                "marker":{
+                    "visible":false
+                },
+                "legend-marker":{
+                    
+                },
+                "legend-item":{
+                    
+                }
+            },
+            {
+                "values":[4],
+                "text":"Growth",
+                "effect":2,
+                "target":"_self",
+                "tooltip-text":"Growth",
+                "stacked":true,
+                "decimals":2,
+                "stack":1,
+                "data-tooltips-3":[],
+                "data-tooltips-4":[],
+                "type":"hbar",
+                "marker":{
+                    "visible":false
+                },
+                "legend-marker":{
+                    
+                },
+                "legend-item":{
+                    
+                }
+            },
+            {
+                "values":[5],
+                "text":"Quality",
+                "effect":2,
+                "target":"_self",
+                "tooltip-text":"Quality",
+                "stacked":true,
+                "decimals":2,
+                "stack":1,
+                "data-tooltips-3":[],
+                "data-tooltips-4":[],
+                "type":"hbar",
+                "marker":{
+                    "visible":false
+                },
+                "legend-marker":{
+                    
+                },
+                "legend-item":{
+                    
+                }
+            },
+            {
+                "values":[1],
+                "text":"Size",
+                "effect":2,
+                "target":"_self",
+                "tooltip-text":"Size",
+                "stacked":true,
+                "decimals":2,
+                "stack":1,
+                "data-tooltips-3":[],
+                "data-tooltips-4":[],
+                "type":"hbar",
+                "marker":{
+                    "visible":false
+                },
+                "legend-marker":{
+                    
+                },
+                "legend-item":{
+                    
+                }
+            },
+            {
+                "values":[3],
+                "text":"Volatility",
+                "effect":2,
+                "target":"_self",
+                "tooltip-text":"Volatility",
+                "stacked":true,
+                "decimals":2,
+                "stack":1,
+                "data-tooltips-3":[],
+                "data-tooltips-4":[],
+                "type":"hbar",
+                "marker":{
+                    "visible":false
+                },
+                "legend-marker":{
+                    
+                },
+                "legend-item":{
+                    
+                }
+            },
+            {
+                "values":[3],
+                "text":"Momentum",
+                "effect":2,
+                "target":"_self",
+                "tooltip-text":"Momentum",
+                "stacked":true,
+                "decimals":2,
+                "stack":1,
+                "data-tooltips-3":[],
+                "data-tooltips-4":[],
+                "type":"hbar",
+                "marker":{
+                    "visible":false
+                },
+                "legend-marker":{
+                    
+                },
+                "legend-item":{
+                    
+                }
+            }
+        ],
+        "labels":[],
+        "options":{
+            "tooltip-box":{
+                "text-align":""
+            }
+        },
+        "height":25,
+        "type":"hbar"
+    },
+    {
+        "chartdescription":"Portfolio Style Skyline&trade;-100-319",
+        "title":{
+            
+        },
+        "legend":{
+            "visible":true,
+            "layout":"x3",
+            "item":{
+                "marker-style":"circle",
+                "border-color":"black"
+            },
+            "position":"50% 98%"
+        },
+        "scale-x":{
+            "labels":[],
+            "max-labels":50,
+            "markers":[
+                {
+                    "type":"line",
+                    "range":[4.5],
+                    "line-color":"#cdcdcd"
+                },
+                {
+                    "type":"line",
+                    "range":[6.5],
+                    "line-color":"#cdcdcd"
+                },
+                {
+                    "type":"line",
+                    "range":[10.5],
+                    "line-color":"#cdcdcd"
+                },
+                {
+                    "type":"line",
+                    "range":[15.5],
+                    "line-color":"#cdcdcd"
+                },
+                {
+                    "type":"line",
+                    "range":[16.5],
+                    "line-color":"#cdcdcd"
+                },
+                {
+                    "type":"line",
+                    "range":[19.5],
+                    "line-color":"#cdcdcd"
+                }
+            ],
+            "exact":true,
+            "label":{
+                
+            },
+            "item":{
+                "font-angle":340,
+                "offset-x":15,
+                "offset-y":-8,
+                "auto-align":true,
+                "rules":[]
+            },
+            "items-overlap":true,
+            "max-items":200,
+            "values":["Book to Price","Earnings Yield","Cash Flow Yield","Sales to Price","EBITDA to EV","Dividend Yield","Shareholder Yield","Dividend Growth 5Y","Earnings Growth 5Y","Sales Growth 5Y","Forecast Growth 12M","Return on Equity","Net Profit Margin","Low Gearing","Earnings Growth Stability","Sales Growth Stability","Market Cap","Market Beta","Daily Volatility 1Y","Volatility 3Y","Momentum ST","Momentum 12-1","Forecast 12M Revisions"]
+        },
+        "scale-y":{
+            "label":{
+                "text":"Style Tilt ™"
+            },
+            "item":{
+                "rules":[]
+            },
+            "items-overlap":true,
+            "max-items":200,
+            "values":"-5:6:1"
+        },
+        "plot":{
+            "tooltip-text":"%k: %v",
+            "rules":[
+                {
+                    "rule":"%i >= 0 && %i <=4",
+                    "background-color":"#0193CF"
+                },
+                {
+                    "rule":"%i >= 5 && %i <=6",
+                    "background-color":"#34209D"
+                },
+                {
+                    "rule":"%i >= 7 && %i <=10",
+                    "background-color":"#3B9067"
+                },
+                {
+                    "rule":"%i >= 11 && %i <=15",
+                    "background-color":"#8624AF"
+                },
+                {
+                    "rule":"%i >= 16 && %i <=16",
+                    "background-color":"#FFA500"
+                },
+                {
+                    "rule":"%i >= 17 && %i <=19",
+                    "background-color":"#AB4030"
+                },
+                {
+                    "rule":"%i >= 20 && %i <=22",
+                    "background-color":"#2A2A2A"
+                }
+            ],
+            "data-id":["1","3","4","5","29","2","110","124","113","114","11","7","9","38","31","32","13","14","130","111","15","131","127"],
+            "data-tooltips-1":[],
+            "data-tooltips-2":[],
+            "value-box":{
+                "visible":false
+            },
+            "hover-state":{
+                "shadow":true,
+                "shadow-distance":"3px"
+            },
+            "exact":1,
+            "max-trackers":999,
+            "offset-values":[],
+            "tooltip":{
+                "visible":true
+            }
+        },
+        "plotarea":{
+            "margin-top":0,
+            "margin-bottom":90,
+            "margin-left":51,
+            "height":"100%"
+        },
+        "layout":{
+            "layout":"1x2"
+        },
+        "series":[
+            {
+                "values":[5.4821953773498535,0.4139954447746277,2.620427131652832,1.1074038743972778,2.793839693069458,-4.273827075958252,1.0722849369049072,1.6959620714187622,1.710067629814148,5.310413360595703,0.3932473957538605,-2.077756881713867,0.7787332534790039,2.6153528690338135,-1.4712066650390625,-2.112647533416748,-1.838202953338623,-0.5482593178749084,4.170839786529541,3.8529834747314453,1.8086858987808228,-1.593044638633728,1.1411374807357788],
+                "text":"Portfolio Style Skyline&trade;",
+                "effect":2,
+                "target":"_self",
+                "url":"javascript:getTiltContributions('Widgets.WebWidgets.WebChartStyleExposure','f70aa41c-6f35-43a1-9faa-1f4f2a1ad41b','%data-id|%k','UA');",
+                "stacked":true,
+                "decimals":2,
+                "data-tooltips-3":[],
+                "data-tooltips-4":[],
+                "type":"bar",
+                "marker":{
+                    "visible":false
+                },
+                "legend-marker":{
+                    "visible":false
+                },
+                "legend-item":{
+                    "visible":false
+                }
+            }
+        ],
+        "labels":[],
+        "options":{
+            "tooltip-box":{
+                "text-align":""
+            }
+        },
+        "y":25,
+        "height":294,
+        "type":"mixed"
+    }
+],
+"gui":{
+    "behaviors":[
+        {
+            "id":"Reload",
+            "enabled":"none"
+        },
+        {
+            "id":"BuyLicense",
+            "enabled":"none"
+        },
+        {
+            "id":"BugReport",
+            "enabled":"none"
+        },
+        {
+            "id":"Print",
+            "enabled":"none"
+        },
+        {
+            "id":"SwitchTo3D",
+            "enabled":"none"
+        },
+        {
+            "id":"SaveAsImage",
+            "enabled":"none"
+        },
+        {
+            "id":"DownloadPDF",
+            "enabled":"none"
+        },
+        {
+            "id":"DownloadPDF",
+            "enabled":"none"
+        },
+        {
+            "id":"LogScale",
+            "enabled":"none"
+        },
+        {
+            "id":"LinearScale",
+            "enabled":"none"
+        },
+        {
+            "id":"DownloadSVG",
+            "enabled":"none"
+        },
+        {
+            "id":"FullScreen",
+            "enabled":"all"
+        }
+    ]
+},
+"globals":{
+    "fontFamily":"'Lucida Sans Unicode', 'Lucida Grande', Verdana, Arial, sans-serif"
+}
+}

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="classes" thread-count="1">
+	<listeners>
+		<!--<listener class-name="com.styleanalytics.enterprise.Retry.RetryListener"/>-->
+		<listener class-name="com.styleanalytics.enterprise.utils.Listener" />
+	</listeners>
+	<test name="Test Equity Reports">
+		<classes>
+			<class name="com.styleanalytics.enterprise.EquityReports.PortfolioReports" />
+		</classes>
+	</test>
+
+	<test name="FactorSetsFullControl">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Sharing.FactorSetsFullControl" />
+		</classes>
+	</test>
+	<test name="FactorSetsReadOnly">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Sharing.FactorSetsReadOnly" />
+		</classes>
+	</test>
+	<test name="FactorSetsSharing">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Sharing.FactorSetsSharing" />
+		</classes>
+	</test>
+	<test name="TemplateFullControl">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Sharing.TemplateFullControl" />
+		</classes>
+	</test>
+	<test name="TemplateNotShared">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Sharing.TemplateNotShared" />
+		</classes>
+	</test>
+	<test name="TemplateReadOnly">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Sharing.TemplatesReadOnly" />
+		</classes>
+	</test>
+	<test name="TemplatesSharing">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Sharing.TemplatesSharing" />
+		</classes>
+	</test>
+	<test name="PDFCompare">
+		<classes>
+			<class name="com.styleanalytics.enterprise.PDF.PDFDownloadTest" />
+		</classes>
+	</test>
+	<test name="XMLValidation">
+		<classes>
+			<class name="com.styleanalytics.enterprise.XML.XMLTest" />
+		</classes>
+	</test>
+	<test name="Test Portfolio Load">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Loader.LoadTest" />
+		</classes>
+	</test>
+	<test name="Test Data Mart">
+		<classes>
+			<class name="com.styleanalytics.enterprise.DataMartTest" />
+		</classes>
+	</test>
+	<test name="Test Report Template">
+		<classes>
+			<class name="com.styleanalytics.enterprise.ReportOldTemplateTest" />
+		</classes>
+	</test>
+
+	<test name="Test Analysis Task">
+		<classes>
+			<class name="com.styleanalytics.enterprise.AnalysisTask.AutomatedTaskTest" />
+		</classes>
+	</test>
+
+	<test name="Test Region Set">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Manage.RegionSetTest" />
+		</classes>
+	</test>
+
+	<test name="Test Distributed Reports">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Manage.DistributedReportsTest" />
+		</classes>
+	</test>
+
+	<test name="Test Shares">
+		<classes>
+			<class name="com.styleanalytics.enterprise.SharesTest" />
+		</classes>
+	</test>
+	<test name="Test Report Downloads">
+		<classes>
+			<class name="com.styleanalytics.enterprise.ReportDownloadTest" />
+		</classes>
+	</test>
+
+	<test name="Test Stock Matching">
+		<classes>
+			<class name="com.styleanalytics.enterprise.StockMatching" />
+		</classes>
+	</test>
+
+	<test name="Test Constructed BM">
+		<classes>
+			<class name="com.styleanalytics.enterprise.ConstructedBenchmarkTest" />
+		</classes>
+	</test>
+	<test name="Test Labels">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Manage.LabelsTest" />
+		</classes>
+	</test>
+
+	<test name="Test Template Builder Test">
+		<classes>
+			<class name="com.styleanalytics.enterprise.TemplateBuilder.TemplateBuilderTest" />
+		</classes>
+	</test>
+	<test name="Test Portfolio Search">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Search.SearchTest" />
+		</classes>
+	</test>
+	<test name="Test Analysis Notification">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Notification.NotificationTest" />
+		</classes>
+	</test>
+	<test name="Test Import Monitor">
+		<classes>
+			<class name="com.styleanalytics.enterprise.ImportMonitor.ImportMonitorTest" />
+		</classes>
+	</test>
+	<test name="Test Portfolio Labs">
+		<classes>
+			<class name="com.styleanalytics.enterprise.PortfolioLabs.PortfolioLabsTest" />
+		</classes>
+	</test>
+
+	<!--<test name="Test Portfolio Labs Exports">
+		<classes>
+			<class name="com.styleanalytics.enterprise.PortfolioLabs.PortfolioLabsExportsTest" />
+		</classes>
+	</test>-->
+
+	<test name="Test DefaultBenchmark">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Manage.DefaultBenchmark" />
+		</classes>
+	</test>
+
+	<test name="Test Task Activity">
+		<classes>
+			<class name="com.styleanalytics.enterprise.TaskActivityTest" />
+		</classes>
+	</test>
+	<test name="Test Factor Sets">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Manage.FactorSets" />
+		</classes>
+	</test>
+	<test name="Portfolio Reports">
+		<classes>
+			<class name="com.styleanalytics.enterprise.EquityReports.PortfolioReportsTest" />
+		</classes>
+	</test>
+	<test name="Custom Peer Group">
+		<classes>
+			<class name="com.styleanalytics.enterprise.PeerInsights.CustomPeerGroup" />
+		</classes>
+	</test>
+	<test name="StyleMine V2">
+		<classes>
+			<class name="com.styleanalytics.enterprise.EquityReports.StyleMineV2" />
+		</classes>
+	</test>
+	<test name="Date Range Test">
+		<classes>
+			<class name="com.styleanalytics.enterprise.EquityReports.DateRangeInTitle" />
+		</classes>
+	</test>
+	<test name="StyleMineV2 Part2">
+	<classes>
+		<class name="com.styleanalytics.enterprise.EquityReports.StyleMineTest" />
+	</classes>
+    </test>
+	<test name="Reports Page Content">
+		<classes>
+			<class name="com.styleanalytics.enterprise.EquityReports.ReportsPageTest" />
+		</classes>
+	</test>
+
+	<test name="Ticker Test">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Ticker" />
+		</classes>
+	</test>
+	<test name="Block Settings">
+		<classes>
+			<class name="com.styleanalytics.enterprise.TemplateBuilder.PDFBlockSettings" />
+		</classes>
+	</test>
+	<test name="Meta Data Test">
+		<classes>
+			<class name="com.styleanalytics.enterprise.Search.MetaDataTest" />
+		</classes>
+	</test>
+	<test name="PI Fund Report Test">
+		<classes>
+			<class name="com.styleanalytics.enterprise.PeerInsights.FundReport" />
+		</classes>
+	</test>
+	<test name="Ex-Reports Changes">
+		<classes>
+			<class name="com.styleanalytics.enterprise.ExecutiveReports.ChangesTemplate" />
+		</classes>
+	</test>
+	<test name="Ex-Reports Nav">
+		<classes>
+			<class name="com.styleanalytics.enterprise.ExecutiveReports.NavTemplate" />
+		</classes>
+	</test>
+	<test name="Ex-Reports Returns">
+		<classes>
+			<class name="com.styleanalytics.enterprise.ExecutiveReports.ReturnTemplate" />
+		</classes>
+	</test>
+	<test name="Ex-Reports Default">
+		<classes>
+			<class name="com.styleanalytics.enterprise.ExecutiveReports.DefaultTemplate" />
+		</classes>
+	</test>
+</suite>

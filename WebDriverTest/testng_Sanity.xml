@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="classes" thread-count="1">
+    <listeners>
+        <!--<listener class-name="com.styleanalytics.enterprise.Retry.RetryListener"/>-->
+        <listener class-name="com.styleanalytics.enterprise.utils.Listener" />
+    </listeners>
+    <test name="Test Equity Reports">
+        <classes>
+            <class name="com.styleanalytics.enterprise.EquityReports.PortfolioReports" />
+        </classes>
+    </test>
+    <test name="PDFCompare">
+        <classes>
+            <class name="com.styleanalytics.enterprise.PDF.PDFDownloadTest" />
+        </classes>
+    </test>
+    <test name="XMLValidation">
+        <classes>
+            <class name="com.styleanalytics.enterprise.XML.XMLTest" />
+        </classes>
+    </test>
+    <test name="Test Portfolio Load">
+        <classes>
+            <class name="com.styleanalytics.enterprise.Loader.LoadTest" />
+        </classes>
+    </test>
+    <test name="Test Stock Matching">
+        <classes>
+            <class name="com.styleanalytics.enterprise.StockMatching" />
+        </classes>
+    </test>
+    <test name="PI Fund Report Test">
+        <classes>
+            <class name="com.styleanalytics.enterprise.PeerInsights.FundReport" />
+        </classes>
+    </test>
+    <test name="Ex-Reports Changes">
+        <classes>
+            <class name="com.styleanalytics.enterprise.ExecutiveReports.ChangesTemplate" />
+        </classes>
+    </test>
+    <test name="Ex-Reports Nav">
+        <classes>
+            <class name="com.styleanalytics.enterprise.ExecutiveReports.NavTemplate" />
+        </classes>
+    </test>
+    <test name="Ex-Reports Returns">
+        <classes>
+            <class name="com.styleanalytics.enterprise.ExecutiveReports.ReturnTemplate" />
+        </classes>
+    </test>
+    <test name="Ex-Reports Default">
+        <classes>
+            <class name="com.styleanalytics.enterprise.ExecutiveReports.DefaultTemplate" />
+        </classes>
+    </test>
+</suite>

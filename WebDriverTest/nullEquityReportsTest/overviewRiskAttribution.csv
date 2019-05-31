@@ -1,0 +1,181 @@
+{
+"graphset":[
+    {
+        "chartdescription":"Risk Attribution-75-319",
+        "title":{
+            
+        },
+        "legend":{
+            "visible":true,
+            "layout":"x3",
+            "item":{
+                "marker-style":"circle",
+                "border-color":"black"
+            },
+            "position":"50% 98%"
+        },
+        "scale-x":{
+            "labels":[],
+            "max-labels":50,
+            "markers":[],
+            "exact":true,
+            "label":{
+                
+            },
+            "item":{
+                "font-angle":340,
+                "offset-x":15,
+                "offset-y":-8,
+                "auto-align":true,
+                "rules":[]
+            },
+            "items-overlap":true,
+            "max-items":200,
+            "values":["Currency","Market Xterms","Market","Sector Xterms","Sector","Style Xterms","Style","Equity Xterms","Equity"]
+        },
+        "scale-y":{
+            "label":{
+                "text":"%",
+                "font-angle":0
+            },
+            "item":{
+                "rules":[]
+            },
+            "items-overlap":true,
+            "max-items":200,
+            "values":"-40:80:20"
+        },
+        "plot":{
+            "tooltip-text":"%k: %v",
+            "rules":[
+                {
+                    "rule":"%i == 1",
+                    "background-color":"#0193CF"
+                },
+                {
+                    "rule":"%i == 3",
+                    "background-color":"#0193CF"
+                },
+                {
+                    "rule":"%i == 5",
+                    "background-color":"#0193CF"
+                },
+                {
+                    "rule":"%i == 7",
+                    "background-color":"#0193CF"
+                }
+            ],
+            "data-id":[],
+            "data-tooltips-1":[],
+            "data-tooltips-2":[],
+            "value-box":{
+                "visible":false
+            },
+            "hover-state":{
+                "shadow":true,
+                "shadow-distance":"3px"
+            },
+            "exact":1,
+            "max-trackers":999,
+            "offset-values":[],
+            "tooltip":{
+                "visible":true
+            }
+        },
+        "plotarea":{
+            "margin-bottom":45,
+            "margin-left":48,
+            "height":"100%"
+        },
+        "layout":{
+            "layout":"1x2"
+        },
+        "series":[
+            {
+                "values":[53.6812121905021,-29.52912348897683,66.81536314122533,-7.417794092498485,5.198529456102813,0.6705898938940156,1.8039451281238625,0.25504100508713445,8.522238937333768],
+                "text":"Risk Attribution",
+                "effect":2,
+                "target":"_self",
+                "url":"javascript:displayRiskDecompostionByComponent('Widgets.WebWidgets.WebChartRisk','f70aa41c-6f35-43a1-9faa-1f4f2a1ad41b','%k','Style','DefaultColorScheme');",
+                "stacked":true,
+                "decimals":2,
+                "data-tooltips-3":[],
+                "data-tooltips-4":[],
+                "type":"bar",
+                "marker":{
+                    "visible":false
+                },
+                "legend-marker":{
+                    "visible":false
+                },
+                "legend-item":{
+                    "visible":false
+                },
+                "background-color":"#ab4030"
+            }
+        ],
+        "labels":[],
+        "options":{
+            "tooltip-box":{
+                "text-align":""
+            }
+        },
+        "type":"mixed"
+    }
+],
+"gui":{
+    "behaviors":[
+        {
+            "id":"Reload",
+            "enabled":"none"
+        },
+        {
+            "id":"BuyLicense",
+            "enabled":"none"
+        },
+        {
+            "id":"BugReport",
+            "enabled":"none"
+        },
+        {
+            "id":"Print",
+            "enabled":"none"
+        },
+        {
+            "id":"SwitchTo3D",
+            "enabled":"none"
+        },
+        {
+            "id":"SaveAsImage",
+            "enabled":"none"
+        },
+        {
+            "id":"DownloadPDF",
+            "enabled":"none"
+        },
+        {
+            "id":"DownloadPDF",
+            "enabled":"none"
+        },
+        {
+            "id":"LogScale",
+            "enabled":"none"
+        },
+        {
+            "id":"LinearScale",
+            "enabled":"none"
+        },
+        {
+            "id":"DownloadSVG",
+            "enabled":"none"
+        },
+        {
+            "id":"FullScreen",
+            "enabled":"all"
+        }
+    ]
+},
+"globals":{
+    "fontFamily":"'Lucida Sans Unicode', 'Lucida Grande', Verdana, Arial, sans-serif"
+}
+}

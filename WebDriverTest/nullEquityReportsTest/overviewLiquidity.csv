@@ -1,0 +1,173 @@
+{
+"graphset":[
+    {
+        "chartdescription":"Liquidity-100-319",
+        "title":{
+            
+        },
+        "legend":{
+            "visible":true,
+            "layout":"x5",
+            "item":{
+                
+            }
+        },
+        "scale-x":{
+            "labels":[],
+            "max-labels":50,
+            "markers":[],
+            "exact":true,
+            "label":{
+                "text":"Days"
+            },
+            "item":{
+                "rules":[]
+            },
+            "items-overlap":true,
+            "max-items":200,
+            "values":["0.1","0.2","0.3","0.4","0.5","1","2","3","4","5","10"]
+        },
+        "scale-y":{
+            "label":{
+                "text":"Positions Eliminated %"
+            },
+            "item":{
+                "rules":[]
+            },
+            "items-overlap":true,
+            "max-items":200,
+            "values":"0:100:20"
+        },
+        "plot":{
+            "tooltip-text":"%k: %v",
+            "rules":[],
+            "data-id":[],
+            "data-tooltips-1":[],
+            "data-tooltips-2":[],
+            "value-box":{
+                "visible":false
+            },
+            "exact":1,
+            "max-trackers":999,
+            "offset-values":[],
+            "tooltip":{
+                "visible":true
+            }
+        },
+        "plotarea":{
+            "margin-top":40,
+            "margin-left":48,
+            "height":"95%"
+        },
+        "layout":{
+            "layout":"1x2"
+        },
+        "series":[
+            {
+                "values":[51.02320098876953,66.5016860961914,75.120361328125,80.22640228271484,83.80547332763672,90.53713989257812,93.54169464111328,94.86643981933594,95.80427551269531,96.62228393554688,98.91606903076172],
+                "text":"Trade to cash",
+                "effect":2,
+                "target":"_self",
+                "stacked":false,
+                "decimals":2,
+                "data-tooltips-3":[],
+                "data-tooltips-4":[],
+                "type":"line",
+                "marker":{
+                    "visible":false
+                },
+                "legend-marker":{
+                    
+                },
+                "legend-item":{
+                    
+                },
+                "background-color":"#1d58a8"
+            },
+            {
+                "values":[75.48511505126953,83.24202728271484,87.55363464355469,90.10799407958984,91.89847564697266,95.26608276367188,96.76914978027344,97.43186950683594,97.90103149414062,98.31024932861328,99.45774841308594],
+                "text":"Trade to benchmark",
+                "effect":2,
+                "target":"_self",
+                "stacked":false,
+                "decimals":2,
+                "data-tooltips-3":[],
+                "data-tooltips-4":[],
+                "type":"line",
+                "marker":{
+                    "visible":false
+                },
+                "legend-marker":{
+                    
+                },
+                "legend-item":{
+                    
+                },
+                "background-color":"#8624af"
+            }
+        ],
+        "labels":[],
+        "options":{
+            "tooltip-box":{
+                "text-align":""
+            }
+        },
+        "type":"line"
+    }
+],
+"gui":{
+    "behaviors":[
+        {
+            "id":"Reload",
+            "enabled":"none"
+        },
+        {
+            "id":"BuyLicense",
+            "enabled":"none"
+        },
+        {
+            "id":"BugReport",
+            "enabled":"none"
+        },
+        {
+            "id":"Print",
+            "enabled":"none"
+        },
+        {
+            "id":"SwitchTo3D",
+            "enabled":"none"
+        },
+        {
+            "id":"SaveAsImage",
+            "enabled":"none"
+        },
+        {
+            "id":"DownloadPDF",
+            "enabled":"none"
+        },
+        {
+            "id":"DownloadPDF",
+            "enabled":"none"
+        },
+        {
+            "id":"LogScale",
+            "enabled":"none"
+        },
+        {
+            "id":"LinearScale",
+            "enabled":"none"
+        },
+        {
+            "id":"DownloadSVG",
+            "enabled":"none"
+        },
+        {
+            "id":"FullScreen",
+            "enabled":"all"
+        }
+    ]
+},
+"globals":{
+    "fontFamily":"'Lucida Sans Unicode', 'Lucida Grande', Verdana, Arial, sans-serif"
+}
+}
